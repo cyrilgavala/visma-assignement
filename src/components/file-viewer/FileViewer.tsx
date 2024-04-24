@@ -45,7 +45,7 @@ export const FileViewer: React.FC<FileViewerProps> = (props) => {
         accept=".jpg,.jpeg,.png,.pdf"
       />
       <p data-testid="drag-and-drop">
-        Drag 'n' drop some files here, or click to select file
+        Drag 'n' drop file here, or click to select file
       </p>
       <BackupIcon />
     </Box>

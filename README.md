@@ -61,4 +61,4 @@ Run the Docker container:
 docker run -p 3000:3000 visma-assignment:latest
 ```
 
-This will start the Docker container and map port 8080 on your host machine to port 80 in the Docker container. Open http://localhost:3000 in your browser to view the application.
+This will start the Docker container and map port 3000 on your host machine to port 3000 in the Docker container. Open http://localhost:3000 in your browser to view the application.
