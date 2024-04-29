@@ -19,10 +19,13 @@ export const App: React.FC = () => {
 
   const handleSubmit = (data: AnnotationFormData) => {
     const json = JSON.stringify(data);
-    FileDownload(
+
+    if (file) {
+      FileDownload(
       json,
-      `${file!.name.substr(0, file!.name.lastIndexOf("."))}.json`,
-    );
+        `${file.name.slice(0, file.name.lastIndexOf("."))}.json`,
+      );
+    }
   };
 
   const handleFileDrop = (file: File) => {
