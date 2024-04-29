@@ -11,7 +11,7 @@ import {
   CssBaseline,
   Typography,
 } from "@mui/material";
-import FileDownload from "react-file-download";
+import FileDownload from "js-file-download";
 import { FileViewer } from "./components/file-viewer/FileViewer";
 
 export const App: React.FC = () => {
